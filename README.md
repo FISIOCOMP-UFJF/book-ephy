@@ -1,7 +1,7 @@
-# Computational Electrophysiology — Notebooks
+# Computational Electrophysiology: Action Potentials, Waves, and Neural Computation - Notebooks
 
 Companion Jupyter notebooks for the book *Computational Electrophysiology*
-(B. M. Rocha, R. Weber dos Santos, N. Z. Monteiro — UFJF). Each notebook
+(R. Weber dos Santos, B. M. Rocha, and N. Z. Monteiro — UFJF). Each notebook
 reproduces the simulations and figures of one chapter, using the compact,
 delay-based cellular model developed in the text and its extension to coupled
 cells, tissue, and small neural circuits.

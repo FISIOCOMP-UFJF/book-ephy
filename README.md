@@ -102,15 +102,6 @@ written to the working directory.
 > removed in Matplotlib 3.9; if you run an older version, replace
 > `matplotlib.colormaps[name]` with `matplotlib.cm.get_cmap(name)` (or upgrade).
 
-## Notes
-
-- Parameter values follow the tables in the corresponding chapters; the base
-  dictionaries (`AP_BASE`, `SIM`, synapse configs) are defined in each notebook's
-  setup cell and can be edited there.
-- Random draws use a fixed seed for reproducibility.
-- Figure numbering inside the notebooks (1.x, 2.x, 3.x) follows the chapter's
-  internal numbering; saved files are named `Figure N.png`/`Figure N.pdf`.
-
 ## Citation
 
 If you use these notebooks, please cite the book.

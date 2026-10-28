@@ -86,22 +86,6 @@ Per-notebook minimum:
 > fallback runs the same equations, only slower. `chap3` uses `numba` and
 > `scikit-image` (for `find_contours` / `marching_cubes`) directly.
 
-## Running
-
-```bash
-jupyter notebook
-```
-
-Open the notebook for the chapter of interest and run the cells top to bottom.
-Run the first ("Core" / setup) cell before any figure cell, since it defines the
-model parameters and simulators used throughout. Figures are shown inline and
-written to the working directory.
-
-> **Matplotlib note.** These notebooks use the current colormap API,
-> `matplotlib.colormaps["name"]`. The older `matplotlib.cm.get_cmap("name")` was
-> removed in Matplotlib 3.9; if you run an older version, replace
-> `matplotlib.colormaps[name]` with `matplotlib.cm.get_cmap(name)` (or upgrade).
-
 ## Citation
 
 If you use these notebooks, please cite the book.
